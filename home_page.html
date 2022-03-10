@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<HTML lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta charset="utf-8">
+        <title>Home</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>    
+        <link rel="icon" type="image/x-icon" href="images/dogecoin.png">
+    </head>
+        <body>
+            <header  id="normal"class="header">
+                <a class="skipnavlink"href="#main-content">
+                    Skip Navigation
+                </a>
+                <div>
+                    <a href="home_page.html"><img src="images/satoshi_crypto_logo.png" alt="Satoshi's Crypto Logo" class="logo"></a>
+                    <ul>
+                        <li><a href="home_page.html" class="nav-link">Home</a></li>
+                        <li><a href="nfts.html"class="nav-link">NFTs</a></li>
+                        <li><a href="crypto_prices.html"class="nav-link">Prices</a></li>
+                        <li><a href="web3.html" class="nav-link">Web 3</a></li>
+                        <li><a href="crypto_scams.html"class="nav-link">Crypto Scames</a></li>
+                    </ul>
+                    <button type="button" id="btn" onclick="toggleBtn()" class="toggle">
+                        <span></span>
+                    </button>
+                    <div class="hamburger-icon"  onclick="expandMenu()">
+                        <div class="lines-container">
+                            <div class="hamburger-lines"></div>
+                            <div class="hamburger-lines"></div>
+                            <div class="hamburger-lines"></div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="side-menu"id="movemenu">
+                <div class="side-menu-container">
+                    <div class="x">
+                        <div class="x-container"onclick="expandMenu()">
+                            <div class="x-line1"></div>
+                            <div class="x-line2"></div>
+                        </div>
+                    </div>
+                    <ul>
+                        <li><a href="home_page.html" class="side-link">Home</a></li>
+                        <li><a href="nfts.html"class="side-link">NFTs</a></li>
+                        <li><a href="crypto_prices.html"class="side-link">Prices</a></li>
+                        <li><a href="web3.html" class="side-link">Web 3</a></li>
+                        <li><a href="crypto_scams.html"class="side-link">Crypto Scames</a></li>
+                    </ul>
+                </div>
+            </div>
+            <section  id="normal"class="welcome" id="main-content">
+                <div class="crypto-animations" id="switchanimation">
+                    <video src="images/bitcoin_animation.mp4" class="side-video bitcoin-animation" id="banimation"alt="animation of bitcoin spinning 360" onloadedmetadata="this.muted = true" playsinline autoplay muted loop></video>
+                    <video src="images/ethereum_animation.mp4" class="side-video ethereum-animation" id="eanimation" alt="animation of ethereum spinning 360"onloadedmetadata="this.muted = true" playsinline autoplay muted loop></video>
+                </div>
+                <div class="welcome-crypto-text">
+                <h1 class="headings animate__animated animate__flash welcome-to-txt">Welcome to 
+                    <span class="normally-orange"id="switch-color"><br>Crypto</br></span></span>
+                </h1>
+            </div>
+            </section>
+            <div class="crypto-effect-container-bitcoin" id="btcAn">
+                <div class="crypto-effect-img-div"><img src="images/bitcoin.png" class="crypto-effect-img"></div>
+                <div class="crypto-effect-img-div"><img src="images/bitcoin.png" class="crypto-effect-img"></div>
+                <div class="crypto-effect-img-div"><img src="images/bitcoin.png" class="crypto-effect-img"></div>
+                <div class="crypto-effect-img-div"><img src="images/bitcoin.png" class="crypto-effect-img"></div>
+            </div>    
+
+            <div class="crypto-effect-container-etherium" id="ethAn">
+                <div class="crypto-effect-img-div"><img src="images/ethereum.png" class="crypto-effect-img"></div>
+                <div class="crypto-effect-img-div"><img src="images/ethereum.png" class="crypto-effect-img"></div>
+                <div class="crypto-effect-img-div"><img src="images/ethereum.png" class="crypto-effect-img"></div>
+                <div class="crypto-effect-img-div"><img src="images/ethereum.png" class="crypto-effect-img"></div>
+            </div>
+            <section  id="normal"class="history-of-cyrpto">
+                <h1 class="white-headings animate__animated animate__fadeInLeft" id="historycrypto">
+                    History Of Crypto
+                </h1>
+                <p class="history-p p">
+                    <strong>
+                        Bitcoin launched in 2008 amid the recession to 
+                        provide people with an alternative investment. 
+                        The creator of Bitcoin is known under the name Satoshi Nakamoto.
+                        His creation would inspire people to look for better alternatives.
+                        At a time when inflation was at an all-time high Bitcoin promised 
+                        to be a hedge against inflation because of its limited quantity as 
+                        a deflationary currency. After the word had gotten out, several more 
+                        altcoins(other coins) emerged to improve on bitcoin or to look at it 
+                        from a different point of view altogether. Some notable coins are Ethereum, 
+                        Litecoin, Dogecoin, Solana, XRP, etc. In 2022 we have seen the emergence of 
+                        meme coins; which are highly volatile cryptocurrencies with their price 
+                        depending on the people backing them. Some of these meme coins have 
+                        turned out to be scams and cash grabs for their creators.
+                        As we move on into the future, crypto will become more integrated 
+                        into our lives and maybe someday be our primary currency around the globe.
+                    </strong>
+                </p>
+                <div class="custom-shape-divider-top-1644760411">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                        <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                        <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+                    </svg>
+                </div>
+                <div class="custom-shape-divider-bottom-1644760534">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                        <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                        <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+                    </svg>
+                </div>
+            </section>
+            <section  id="normal"class="crypto-types"style="padding-top: 20px;">
+                <h1 class="headings types-of-crypto animate__animated animate__fadeInRight" >Types Of Crypto</h1>
+                <h1 class="p underheading">(By Market Cap)</h1>
+                <div class="grid-container-crypto animate__animated animate__fadeInUp">
+                    <a class="container-crypto" href="https://coinmarketcap.com/currencies/bitcoin/">
+                    <div class="container-elements">
+                        <image class="coin-img" alt="picture of bitcoin" src="images/bitcoin.png" class="crypto-effect-img"></image >
+                        <h1 class="p">Bitcoin</h1>
+                    </div>
+                    </a>
+                    <a class="container-crypto" href="https://coinmarketcap.com/currencies/ethereum/">   
+                    <div class="container-elements">
+                        <image class="coin-img" alt="picture of ethereum" src="images/ethereum.png"></image>
+                        <h1 class="p">Ethereum</h1>
+                    </div>
+                    </a>
+                    <a class="container-crypto" href="https://coinmarketcap.com/currencies/tether/">
+                    <div class="container-elements">
+                        <image class="coin-img" alt="picture of tether" src="images/tether.png"></image >
+                        <h1 class="p">Tether</h1>
+                    </div>
+                    </a>
+                    <a class="container-crypto" href="https://coinmarketcap.com/currencies/bnb/">   
+                    <div class="container-elements">
+                        <image class="coin-img" alt="picture of bnb coin" src="images/BNB.png"></image >
+                        <h1 class="p">BNB</h1>
+                    </div>
+                    </a>
+                    <a class="container-crypto" href="https://coinmarketcap.com/currencies/usd-coin/">   
+                    <div class="container-elements">
+                        <image class="coin-img long-name"alt="picture of usd coin" src="images/usdCoin.png"></image >
+                        <h1 class="p">USD Coin</h1>
+                    </div>
+                    </a>
+                    <a class="container-crypto" href="https://coinmarketcap.com/currencies/xrp/">
+                    <div class="container-elements">
+                        <image class="coin-img" alt="picture of xrp" src="images/XRP.png"></image>
+                        <h1 class="p">XRP</h1>
+                    </div>
+                    </a>
+                    <a class="container-crypto" href="https://coinmarketcap.com/currencies/cardano/">   
+                    <div class="container-elements">
+                        <image class="coin-img" alt="picture of cardano" src="images/Cardano.png"></image >
+                        <h1 class="p">Cardano</h1>
+                    </div>
+                    </a>
+                    <a class="container-crypto" href="https://coinmarketcap.com/currencies/solana/">   
+                    <div class="container-elements">
+                        <image class="coin-img" alt="picture of solana" src="images/Solana.png"></image >
+                        <h1 class="p">Solana</h1>
+                    </div>
+                    </a>
+                    <a class="container-crypto" href="https://coinmarketcap.com/currencies/terra/">   
+                    <div class="container-elements">
+                        <image class="coin-img" alt="picture of terra" src="images/Terra.png"></image >
+                        <h1 class="p">Terra</h1>
+                    </div>
+                    </a>
+                    <a class="container-crypto" href="https://coinmarketcap.com/currencies/avalanche/">   
+                    <div class="container-elements">
+                        <image class="coin-img" alt="picture of avalanche coin" src="images/Avalanche.png"></image >
+                        <h1 class="p">Avalanche</h1>
+                    </div>
+                    </a>
+                    <a class="container-crypto" href="https://coinmarketcap.com/currencies/dogecoin/">   
+                    <div class="container-elements">
+                        <image class="coin-img" alt="picture of dogecoin" src="images/dogecoin.png"></image>
+                        <h1 class="p">Dogecoin</h1>
+                    </div>
+                    </a>
+                    <a class="container-crypto" href="https://coinmarketcap.com/currencies/polkadot/">   
+                    <div class="container-elements">
+                        <image class="coin-img" alt="picture of polkadot coin" src="images/Polkadot.png"></image >
+                        <h1 class="p">Polkadot</h1>
+                    </div>
+                    </a>
+                    <a class="container-crypto" href="https://coinmarketcap.com/currencies/binance-usd/">   
+                    <div class="container-elements">
+                        <image class="coin-img "alt="picture of binance usd coin" src="images/Binance_USD.png"></image>
+                        <h1 class="p long-name">Binance USD</h1>
+                    </div>
+                    </a>
+                    <a class="container-crypto" href="https://coinmarketcap.com/currencies/shiba-inu/">   
+                    <div class="container-elements">
+                        <image class="coin-img" alt="picture of shiba inu coin" src="images/ShibaInu.png"></image>
+                        <h1 class="p">Shiba Inu</h1>
+                    </div>
+                    </a>
+                    <a class="container-crypto" href="https://coinmarketcap.com/currencies/polygon/">   
+                    <div class="container-elements">
+                        <image class="coin-img" alt="picture of polygon coin" src="images/Polygon.png"></image >
+                        <h1 class="p">Polygon</h1>
+                    </div>
+                    </a>
+                    <a class="container-crypto" href="https://coinmarketcap.com/currencies/crypto-com-coin/">   
+                    <div class="container-elements">
+                        <image class="coin-img" alt="picture of crypto.com coin" src="images/Crypto.com Coin.png"></image>
+                        <h1 class="p">Crypto.com </h1>
+                    </div>
+                    </a>
+                    <a class="container-crypto" href="https://coinmarketcap.com/currencies/terrausd/">   
+                    <div class="container-elements">
+                        <image class="coin-img" alt="picture of terra usd coin" src="images/TerraUSD.png"></image >
+                        <h1 class="p">TerraUSD</h1>
+                    </div>
+                    </a>
+                    <a class="container-crypto" href="https://coinmarketcap.com/currencies/wrapped-bitcoin/">   
+                    <div class="container-elements">
+                        <image class="coin-img" alt="picture of wrapped bitcoin" src="images/Wrapped Bitcoin.png"></image>
+                        <h1 class="p long-name">Wrapped Bitcoin</h1>
+                    </div>
+                    </a>
+                    <a class="container-crypto" href="https://coinmarketcap.com/currencies/dai/">   
+                    <div class="container-elements">
+                        <image class="coin-img" alt="picture of dai" src="images/Dai.png"></image>
+                        <h1 class="p">Dai</h1>
+                    </div>
+                    </a>
+                    <a class="container-crypto" href="https://coinmarketcap.com/currencies/litecoin/">   
+                    <div class="container-elements">
+                        <image class="coin-img" alt="picture of litecoin" src="images/Litecoin.png"></image>
+                        <h1 class="p">Litecoin</h1>
+                    </div>   
+                    </a>
+                </div> 
+                <a href="https://coinmarketcap.com"><button class="button see-more">See More</button></a>
+                <div class="custom-shape-divider-top-1645030143">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+                    </svg>
+                </div>
+            </section>
+            <section id="normal" class="popular-exchanges">
+                <h1 class="headings crypto-exchange-text"style="margin-bottom: 0px;">Crypto Exchanges</h1>
+                <div class="tech-slideshow">
+                    <div class="mover-exchanges"></div>
+                </div>
+                <div class="custom-shape-divider-bottom-1644799690">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+                    </svg>
+                </div>
+            </section>
+            <section id="normal"class="see-prices">
+                <h1 class="headings animate__animated animate__bounceInDown"style="margin-bottom: 0px;">See The Prices</h1>
+                <a  href="crypto_prices.html"><button class="button">See Prices</button></a>
+        </div>    
+        </section>
+            <script src="toggles.js"></script>
+        </body>
+        <footer  id="normal" class="homepage-footer">
+            <section class="footer">
+                <div class="footer-container">
+                    <img src="images/satoshi_crypto_logo.png" alt="Satoshi's Crypto Logo" class="logo">
+                    <ul>
+                        <li><a href="home_page.html" class="footer-link">Home</a></li>
+                        <li><a href="nfts.html"class="footer-link">NFTs</a></li>
+                        <li><a href="crypto_prices.html"class="footer-link">Prices</a></li>
+                        <li><a href="web3.html" class="footer-link">Web 3</a></li>
+                        <li><a href="crypto_scams.html"class="footer-link">Crypto Scames</a></li>
+                    </ul>
+                    <em>
+                        <p>© Satoshi's Crypto. 2022 All Rights Reserved,This copyright is not real,
+                         for demonstratoin purposes only.
+                        </p>
+                    </em>
+                </div>
+            </section>
+        </footer>
+</HTML>
