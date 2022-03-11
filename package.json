@@ -2,7 +2,7 @@
   "name": "crypto_website",
   "version": "1.0.0",
   "description": "my first website using mostly html,css,and a little javascript for toggles that change the apearance to some elements",
-  "main": "toggles.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/easonjiangabc/crypto_website.git"
