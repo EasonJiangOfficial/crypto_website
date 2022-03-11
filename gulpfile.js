@@ -27,37 +27,5 @@ function jsTask() {
     .pipe(dest('dist', { sourcemaps: '.' }));
 }
 
-// Browsersync
-function browserSyncServe(cb) {
-  browsersync.init({
-    server: {
-      baseDir: '.',
-    },
-    notify: {
-      styles: {
-        top: 'auto',
-        bottom: '0',
-      },
-    },
-  });
-  cb();
-}
-function browserSyncReload(cb) {
-  browsersync.reload();
-  cb();
-}
-
-// Watch Task
-function watchTask() {
-  watch('*.html', browserSyncReload);
-  watch(
-    ['/**/*.scss', 'app/**/*.js'],
-    series(scssTask, jsTask, browserSyncReload)
-  );
-}
-
-// Default Gulp Task
-exports.default = series(scssTask, jsTask, browserSyncServe, watchTask);
-
 // Build Gulp Task
 exports.build = series(scssTask, jsTask);
