@@ -1,22 +1,26 @@
 {
   "name": "crypto_website",
   "version": "1.0.0",
-  "description": "my first website using mostly html,css,and a little javascript for toggles that change the apearance to some elements",
+  "description": "My first website made with mostly html and scss. I also used a tiny bit of javascript for toggles",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/easonjiangabc/crypto_website.git"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Eason Jiang",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/easonjiangabc/crypto_website/issues"
-  },
-  "homepage": "https://github.com/easonjiangabc/crypto_website#readme",
-  "devDependencies": {
+  "dependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "autoprefixer": "^10.2.6",
+    "browser-sync": "^2.27.4",
+    "cssnano": "^5.0.6",
     "gulp": "^4.0.2",
-    "gulp-concat": "^2.6.1",
-    "gulp-sass": "^5.1.0",
-    "node-sass": "^7.0.1"
+    "gulp-babel": "^8.0.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-terser": "^2.0.1",
+    "postcss": "^8.3.5",
+    "sass": "^1.35.2"
   }
 }
