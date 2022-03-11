@@ -12,7 +12,7 @@ const browsersync = require('browser-sync').create();
 
 // Sass Task
 function scssTask() {
-  return src('GitHub/crypto_website/main.scss', { sourcemaps: true })
+  return src('C:/This Pc/documents/GitHub/crypto_website/main.scss', { sourcemaps: true })
     .pipe(sass())
     .pipe(postcss([autoprefixer(), cssnano()]))
     .pipe(dest('dist', { sourcemaps: '.' }));
