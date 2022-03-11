@@ -1,7 +1,7 @@
 {
-  "name": "crypto_website",
+  "name": "crypto-website",
   "version": "1.0.0",
-  "description": "My first website made with mostly html and scss. I also used a tiny bit of javascript for toggles",
+  "description": " my first website. It talks crypto",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
