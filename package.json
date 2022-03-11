@@ -1,0 +1,26 @@
+{
+  "name": "crypto_website",
+  "version": "1.0.0",
+  "description": "my first website using mostly html,css,and a little javascript for toggles that change the apearance to some elements",
+  "main": "toggles.js",
+  "scripts": {
+    "scss": "gulp sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easonjiangabc/crypto_website.git"
+  },
+  "author": "Eason Jiang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/easonjiangabc/crypto_website/issues"
+  },
+  "homepage": "https://github.com/easonjiangabc/crypto_website#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^7.0.1"
+  }
+}
+
