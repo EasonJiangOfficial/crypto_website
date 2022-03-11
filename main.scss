@@ -451,7 +451,7 @@ padding:150px 100px;
         margin:0;
     }
     .history-of-cyrpto{
-    background-image:url(images/crypto_photo_1.jpg);
+    background-image: url("images/crypto_photo_1.jpg");
     background-position:center;
     background-size:cover;
     opacity:100%;
@@ -703,7 +703,7 @@ padding:150px 100px;
         animation: moveSlideshow 12s linear infinite;
       height: 200px;
         width: 2526px;
-        background: url(images/double_exchanges.png);
+        background: url("images/double_exchanges.png");
         top: 0;
         left: 0;
         height: 100%;
@@ -788,7 +788,7 @@ justify-content:space-evenly;
     animation: moveSlideshow 12s linear infinite;
     height: 200px;
       width: 2526px;
-      background: url(images/nft_marketplaces.png);
+      background: url("images/nft_marketplaces.png");
       top: 0;
       left: 0;
       transform: translate3d(0, 0, 0);
@@ -876,7 +876,7 @@ justify-content:space-evenly;
 .crypto-prices{
     display:grid;
     place-items:center;
-    background-image: url(images/circle-scatter-haikei.svg);
+    background-image: url("images/circle-scatter-haikei.svg");
     
 }
 .crypto-price-blocks{
@@ -949,7 +949,7 @@ animation-timing-function: linear;
     animation: moveSlideshow 12s linear infinite;
     height: 200px;
       width: 2526px;
-      background: url(images/web3_apps.png);
+      background: url("images/web3_apps.png");
       top: 0;
       left: 0;
       transform: translate3d(0, 0, 0);
