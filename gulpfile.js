@@ -12,7 +12,7 @@ const browsersync = require('browser-sync').create();
 
 // Sass Task
 function scssTask() {
-  return src('app/scss/main.scss', { sourcemaps: true })
+  return src('GitHub/crypto_website/main.scss', { sourcemaps: true })
     .pipe(sass())
     .pipe(postcss([autoprefixer(), cssnano()]))
     .pipe(dest('dist', { sourcemaps: '.' }));
@@ -20,7 +20,7 @@ function scssTask() {
 
 // JavaScript Task
 function jsTask() {
-  return src('app/js/script.js', { sourcemaps: true })
+  return src('GitHub/crypto_website/index.js', { sourcemaps: true })
     .pipe(babel({ presets: ['@babel/preset-env'] }))
     .pipe(terser())
     .pipe(dest('dist', { sourcemaps: '.' }));
@@ -50,7 +50,7 @@ function browserSyncReload(cb) {
 function watchTask() {
   watch('*.html', browserSyncReload);
   watch(
-    ['app/scss/**/*.scss', 'app/**/*.js'],
+    ['GitHub/crypto_website/**/*.scss', 'crypto_website/**/*.js'],
     series(scssTask, jsTask, browserSyncReload)
   );
 }
