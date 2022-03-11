@@ -541,7 +541,6 @@ padding:150px 100px;
         background-color:rgb(166, 199, 243);
         display:grid;
         place-items:center;
-        background-image:url();
     }
     .history-p{
         font-size:25px;
