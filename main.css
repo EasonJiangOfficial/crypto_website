@@ -1065,7 +1065,7 @@ display:grid;
     display:none;
     position:fixed;
     width:400px;
-    height:700px;
+    height:100%;
     background-color:black;
     z-index:3;
     right: 0;
