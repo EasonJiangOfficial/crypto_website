@@ -234,19 +234,19 @@ grid-column:3/3;
 grid-row:3/3;
 }
 .africrypt2-img{
-    background-image: url("./images/africrypt_banner.jpg");
+    background-image: url("./assets/images/africrypt_banner.jpg");
 }
 .savekids1-img{
-    background-image: url("./images/save_kids_banner.jpg");
+    background-image: url("./assets/images/save_kids_banner.jpg");
 }
 .squidgame3-img{
-background-image: url("./images/squid_game_banner.png");
+background-image: url("./assets/images/squid_game_banner.png");
 }
 .bitconnect1-img{
-    background-image: url("./images/bitconnect_banner.jpg");
+    background-image: url("./assets/images/bitconnect_banner.jpg");
 }
 .onecoin2-img{
-background-image: url("./images/onecoin_banner.jpg");
+background-image: url("./assets/images/onecoin_banner.jpg");
 }
 .scambutton{
     border-color:transparent;
@@ -451,7 +451,7 @@ padding:150px 100px;
         margin:0;
     }
     .history-of-cyrpto{
-    background-image: url("./images/crypto_photo_1.jpg");
+    background-image: url("./assets/images/crypto_photo_1.jpg");
     background-position:center;
     background-size:cover;
     opacity:100%;
@@ -702,7 +702,7 @@ padding:150px 100px;
         animation: moveSlideshow 12s linear infinite;
       height: 200px;
         width: 2526px;
-        background: url("./images/double_exchanges.png");
+        background: url("./assets/images/double_exchanges.png");
         top: 0;
         left: 0;
         height: 100%;
@@ -787,7 +787,7 @@ justify-content:space-evenly;
     animation: moveSlideshow 12s linear infinite;
     height: 200px;
       width: 2526px;
-      background: url("./images/nft_marketplaces.png");
+      background: url("./assets/images/nft_marketplaces.png");
       top: 0;
       left: 0;
       transform: translate3d(0, 0, 0);
@@ -875,7 +875,7 @@ justify-content:space-evenly;
 .crypto-prices{
     display:grid;
     place-items:center;
-    background-image: url("./images/circle-scatter-haikei.svg");
+    background-image: url("./assets/images/circle-scatter-haikei.svg");
     
 }
 .crypto-price-blocks{
@@ -948,7 +948,7 @@ animation-timing-function: linear;
     animation: moveSlideshow 12s linear infinite;
     height: 200px;
       width: 2526px;
-      background: url("./images/web3_apps.png");
+      background: url("./assets/images/web3_apps.png");
       top: 0;
       left: 0;
       transform: translate3d(0, 0, 0);
